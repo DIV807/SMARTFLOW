@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "outDir": "dist",
+    "rootDir": ".",                           // ✅ Changed from "server" to "."
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "baseUrl": ".",                // Required for path aliasing
+    "paths": {
+      "@shared/*": ["shared/*"]
+  },
+  "include": ["server/**/*", "shared/**/*"]
+}
