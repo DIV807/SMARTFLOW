@@ -15,6 +15,8 @@ SmartFlow is an intelligent dashboard that helps retail managers predict stockou
  
  User Experience – Dashboard, voice alerts, mobile & WhatsApp updates
 
+ 
+
 🛠️ Tech Stack
 
 Frontend: React.js, Recharts, Mapbox GL
